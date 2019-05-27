@@ -6,6 +6,7 @@ import NoGallery from './NoGallery.js';
 const Results = props => {
     const results = props.images;
     let galleries;
+
     if (results && results.length) {
         galleries = results.map(image => {
             return <Gallery

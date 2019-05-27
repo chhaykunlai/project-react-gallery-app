@@ -59,9 +59,12 @@ input {
 }
 
 .main-nav .active,
-.main-nav a:hover,
 .search-form button:hover {
-  background-color: #275270;
+  background-color: #f16919;
+}
+
+.main-nav a:hover {
+  background-color: #f59660;
 }
 
 .photo-container ul {
@@ -77,6 +80,8 @@ input {
   height: 165px;
   overflow: hidden;
   margin-bottom: 15px;
+  border: 2px solid #f16919;
+  border-radius: 5px;
 }
 
 .photo-container ul img {
@@ -91,6 +96,10 @@ input {
 
 .photo-container .not-found {
   width: 100%;
+}
+
+.not-found-image {
+  width: 1em;
 }
 
 @media only screen and (max-width: 767px)  {
